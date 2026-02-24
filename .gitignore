@@ -1,2 +1,48 @@
 # Dependencies
 /node_modules
+/jspm_packages/
+/.npm/
+/.eslintcache
+*.tgz
+
+# Testing and debugging
+/coverage/
+.nyc_output/
+/installed_tests/
+
+# Optional npm cache files
+.npmrc
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.env.development
+.env.test
+.env.production
+
+
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+.DS_Store
+.cache/
+.project
+.settings/
+
+# OS and temporary files
+.gitignore.orig
+.npm
+.lock-wscript
+.wafpickle-*
+.gn
+.target.mk
+.codesplits
+*.node
+*.pyc
+*.qbs
+*.snapshot
+/test/tmp
+/test/fixtures/traces
