@@ -21,19 +21,7 @@ yarn-error.log
 .env.test
 .env.production
 
-# TypeScript files
-*.ts
-!*.d.ts
 
-# Compiled JavaScript files
-/dist/
-/build/
-/docs/
-/esnext/
-/lib/
-/tmp/
-*.js
-!*.js.map
 
 # IDE and editor files
 .idea/
