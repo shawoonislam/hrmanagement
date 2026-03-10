@@ -23,10 +23,6 @@ const userSchema = new Schema({
     required: [true, "Password is required"],
     min: [5, "Too Low"],
     max: [8, "Too High"],
-    // match: [
-    //   /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/,
-    //   "Please enter a valid password",
-    // ],
   },
 
   photo: {
