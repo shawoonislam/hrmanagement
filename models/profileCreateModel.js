@@ -33,6 +33,11 @@ const profileSchema = new Schema({
     dob: {
         type: String,
         required: true
+    },
+
+    isHold:{
+        type: Boolean,
+        default: false
     }
 })
 
